@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <!-- External  CSS -->
+    <link rel="stylesheet" href="mohsin.css">
+    <!-- Internal CSS -->
+    <style>
+        /* element selector */
+        p{
+            color:teal;
+            background-color: springgreen;
+            /* background-color: springgreen !important; */
+        }
+        /* id selector */
+        #first{
+            color: brown;
+        }
+        
+        /* class selector */
+        .bgBlue{
+            color:darkgreen;
+            background-color: chocolate;
+        }
+
+        /* grouping selector */
+        footer , span{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS initial</h2>
+    <!-- <p style="color: blue; background-color: yellow;">Inline CSS</p> -->
+    <p>Inline CSS</p>
+    <h3>Selectors</h3>
+    <p id="first">by ID</p>
+    <p id="second" class="bgBlue">by class</p>
+    <div>
+        <p>By grouping</p>
+        <span>kardo span</span>
+    </div>
+    <footer>This is Footer</footer>
+</body>
+</html>
